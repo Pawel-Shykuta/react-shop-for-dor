@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-shop-for-dor/static/css/main.d2d4d829.css",
+    "main.css": "/react-shop-for-dor/static/css/main.b4de5f72.css",
     "main.js": "/react-shop-for-dor/static/js/main.13123ba0.js",
     "static/media/WhyWee.jpg": "/react-shop-for-dor/static/media/WhyWee.174fd0fbe34b12c34289.jpg",
     "static/media/MissionOne.jpg": "/react-shop-for-dor/static/media/MissionOne.7afee4365a4e34aec6a9.jpg",
@@ -20,11 +20,11 @@
     "static/media/Video.jpg": "/react-shop-for-dor/static/media/Video.f6785cbb9e22c91798ea.jpg",
     "static/media/Populer-two.jpg": "/react-shop-for-dor/static/media/Populer-two.c6cef1bba7fae3a34369.jpg",
     "index.html": "/react-shop-for-dor/index.html",
-    "main.d2d4d829.css.map": "/react-shop-for-dor/static/css/main.d2d4d829.css.map",
+    "main.b4de5f72.css.map": "/react-shop-for-dor/static/css/main.b4de5f72.css.map",
     "main.13123ba0.js.map": "/react-shop-for-dor/static/js/main.13123ba0.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2d4d829.css",
+    "static/css/main.b4de5f72.css",
     "static/js/main.13123ba0.js"
   ]
 }
