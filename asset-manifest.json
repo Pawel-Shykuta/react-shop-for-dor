@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-shop-for-dor/static/css/main.27350093.css",
+    "main.css": "/react-shop-for-dor/static/css/main.45453b81.css",
     "main.js": "/react-shop-for-dor/static/js/main.52cee85a.js",
     "static/media/WhyWee.jpg": "/react-shop-for-dor/static/media/WhyWee.174fd0fbe34b12c34289.jpg",
     "static/media/MissionOne.jpg": "/react-shop-for-dor/static/media/MissionOne.7afee4365a4e34aec6a9.jpg",
@@ -20,11 +20,11 @@
     "static/media/Video.jpg": "/react-shop-for-dor/static/media/Video.f6785cbb9e22c91798ea.jpg",
     "static/media/Populer-two.jpg": "/react-shop-for-dor/static/media/Populer-two.c6cef1bba7fae3a34369.jpg",
     "index.html": "/react-shop-for-dor/index.html",
-    "main.27350093.css.map": "/react-shop-for-dor/static/css/main.27350093.css.map",
+    "main.45453b81.css.map": "/react-shop-for-dor/static/css/main.45453b81.css.map",
     "main.52cee85a.js.map": "/react-shop-for-dor/static/js/main.52cee85a.js.map"
   },
   "entrypoints": [
-    "static/css/main.27350093.css",
+    "static/css/main.45453b81.css",
     "static/js/main.52cee85a.js"
   ]
 }
