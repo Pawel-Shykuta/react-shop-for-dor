@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", serif;
+  width: 100%;
+  height: 100%;
+}
+
+.page-item-Info{
+  width: 100%;
+  height: 1000px;
+}
+
+.con-by{
+  width: 90%;
+  margin: 5%;
+  height: 666px;
+  position: relative;
+  display: flex;
+}
+
+.blockFoto{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.blockFoto img{
+  width: 60%;
+}
+
+.info{
+  width: 50%;
+  height: 100%;
+}
+.info h1{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+
+.info h2{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  margin-top: 12px;
+}
+
+.inputs{
+  width: 480px;
+  height: 56px;
+}
+
+.inputs label{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color:  #454F5B;
+  margin-right: 15px;
+}
+
+.Box {
+  width: 16px;
+  height: 16px;
+  appearance: none; 
+  background-color: #4295E4; 
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+}
+
+.Box:checked::before {
+  content: "✔"; 
+  color: white; 
+  font-size: 14px;
+  position: absolute;
+  left: 2px;
+  top: -1px;
+}
+
+.complectation{
+  width: 500px;
+  height: 27px;
+  display: flex;
+}
+
+.comp-info{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.comp-info h2{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #161C24;
+}
+
+.comp-info input{
+  width: 220px;
+  height: 40px;
+  padding: 20px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  border: 1px solid #C4CDD5;
+}
+
+
+.color{
+  width: 150px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxes{
+  width: 100%;
+  height:  auto;
+  display: flex;
+  gap: 10px;
+}
+
+.box-color{
+  width: 40px;
+  height: 40px;
+  appearance: none;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #C4CDD5;
+}
+
+.box-color:checked::before {
+  content: "✔"; 
+  color:  #596469; 
+  font-size: 33px;
+  position: absolute;
+  left: 5px;
+  top: -3px;
+}
+
+.two{
+  background-color: black;
+}
+
+.three{
+  background-color:  #E2C355;
+}
+
+
+.block-by{
+  width: 440px;
+  height: 150px;
+  display: block;
+  margin-top: 10%;
+  
+}
+
+.block-by h3{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.25px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #161C24;
+}
+
+.old-price{
+ font-size: 20px;
+  font-weight: 300;
+  line-height: 23.87px;
+  text-align: left;
+  text-decoration-line: line-through;
+  text-decoration-skip-ink: none;
+  color: #A4A4A4;
+}
+
+.for-buy{
+  margin-top: 20px;
+  width: 288px;
+  height: 50px;
+  border: none;
+  background-color: #4295E4;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.09px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.for-buy:hover{
+  transform: scale(1.03);
+}
+
+.for-buy:active{
+  transform: scale(1);
+}
+
+.info-block{
+  width: 600px;
+  height: auto;
+  margin-top: 20px;
+}
+
+details .block-info-summary {
+  width: 600px;
+  height: auto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #161C24;
+  cursor: pointer;
+}
+summary::before{
+  content: '';
+  width: 12px;
+  height: 2px;
+  background-color: #4295E4;
+  position: absolute;
+  top: 30%;
+  right: 0;
+  transform:rotate(45deg);
+  cursor: pointer;
+} 
+
+summary::after{
+  content: '';
+  width: 12px;
+  height: 2px;
+  background-color: #4295E4;
+  position: absolute;
+  top: 30%;
+  right: 8px;
+  cursor: pointer;
+  transform:rotate(-45deg);
+} 
+
+summary.active::before{
+  transform:rotate(-45deg);
+}
+
+summary.active::after{
+  transform:rotate(45deg);
+}
+
+.info-block p{
+  text-align: justify;
+  width: 600px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #454F5B;
+}
+
+
+
+@media (max-width:450px){
+
+    .page-item-Info{
+      width: 100%;
+      height: 1500PX;
+      margin-bottom: 100px ;
+    }
+
+    .con-by{
+      width: 90%;
+      margin: 5%;
+      height: 666px;
+      position: relative;
+      display: block;
+    }
+
+    .blockFoto{
+      width: 100%;
+      height: auto;
+      padding-bottom: 20px;
+    }
+    .blockFoto img{
+      width: 100%;
+    }
+
+    .info{
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 5%;
+    }
+
+    .info h1{
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+      text-align: left;
+      text-decoration-skip-ink: none;
+    }
+
+    .info h2{
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 34px;
+      text-align: left;
+      text-decoration-skip-ink: none;
+      margin-top: 12px;
+    }
+
+    .info .inputs{
+      margin-top: 10px;
+      margin-left: -10px;
+      width: 100%;
+      height: 100%;
+      display: block;
+      flex-wrap: wrap;
+    }
+
+    .inputs label{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      text-decoration-skip-ink: none;
+      color:  #454F5B;
+      margin-left: 18%;
+    }
+
+    .Box {
+      margin-left: 20px;
+      width: 16px;
+      height: 16px;
+      appearance: none; 
+      background-color: #4295E4; 
+      cursor: pointer;
+      position: relative;
+    }
+
+
+    .complectation{
+      margin-top: 30px;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .comp-info{
+      margin-top: 10%;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .comp-info h2{
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      text-align: left;
+      text-decoration-skip-ink: none;
+      color: #161C24;
+    }
+
+    .comp-info input{
+      width: 260px;
+      height: 40px;
+      padding: 20px;
+      display: flex;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      text-decoration-skip-ink: none;
+      border: 1px solid #C4CDD5;
+    }
+
+
+    .color{
+      margin-top: 5%;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .boxes{
+      width: 100%;
+      height:  auto;
+      display: flex;
+      gap: 10px;
+    }
+
+    .box-color{
+      width: 40px;
+      height: 40px;
+      appearance: none;
+      position: relative;
+      cursor: pointer;
+      border: 1px solid #C4CDD5;
+    }
+
+
+    .two{
+      background-color: black;
+    }
+
+    .three{
+      background-color:  #E2C355;
+    }
+
+
+    .block-by{
+      width: 100%;
+      height: 150px;
+      display: block;
+      margin-top: 25%;
+    }
+
+    .block-by h3{
+      margin-left: 10%;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26.25px;
+      text-align: left;
+      text-decoration-skip-ink: none;
+      color: #161C24;
+    }
+
+    .old-price{
+    font-size: 20px;
+      font-weight: 300;
+      line-height: 23.87px;
+      text-align: left;
+      text-decoration-line: line-through;
+      text-decoration-skip-ink: none;
+      color: #A4A4A4;
+    }
+
+    .for-buy{
+      margin-top: 20px;
+      width: 288px;
+      height: 50px;
+      border: none;
+      background-color: #4295E4;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.09px;
+      text-align: center;
+      text-decoration-skip-ink: none;
+      cursor: pointer;
+      transition: all .2s ease;
+    }
+
+ 
+    .block-info-about{
+      width: 100%;
+      height: 100%;
+    }
+  
+
+    .info-block{
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      display: block;
+    }
+
+    details .block-info-summary {
+      width: 100%;
+      height: auto;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 38px;
+      text-align: left;
+      text-decoration-skip-ink: none;
+      color: #161C24;
+      cursor: pointer;
+    }
+
+    .info-block p{
+      text-align: justify;
+      width: 100%;
+      height: auto;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      text-decoration-skip-ink: none;
+      color: #454F5B;
+    }
+
+
+}

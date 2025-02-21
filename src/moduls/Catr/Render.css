@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", serif;
+  width: 100%;
+  height: 100%;
+}
+
+.Item-in-corz{
+    width: 100%;
+    margin: 5%;
+    height: 100px;
+    display: flex;
+    gap: 80px;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.493);
+}
+
+.Item-in-corz h1{
+    
+    font-size: 15px;
+}
+
+.Item-in-corz img{
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+.con-In-Corz{
+    display: block;
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+.con-In-Corz h1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #161C24;
+    cursor: pointer;
+}
+
+.roll{
+    width: 110px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #EAEAEA;
+    font-weight: 500;
+    position: absolute;
+    bottom: 10px; 
+}
+
+.roll span{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.price-del{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-del h2{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.block-icon-del{
+    padding: 10px;
+    width: auto ;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.block-icon-del p{
+    color: #4295E4;
+    font-family: 31px;
+    font-weight: 500; 
+}
+
+.icon-del-item{
+    width: 24px;
+    height: 24px;
+    color: #4295E4;
+    cursor: pointer;
+}
+
+.block-icon-del:hover{
+    transform: scale(1.05);
+}
+
+.block-icon-del:active{
+    transform: scale(1);
+}
+
+
+@media (max-width:459px){
+    
+    .Item-in-corz{
+        width: 100%;
+        margin: 0;
+        height: 100px;
+        display: flex;
+        gap: 10px;
+        border-bottom: 1px solid rgba(192, 192, 192, 0.493);
+        margin-top: 40px;
+    }
+    .Item-in-corz h1{
+        font-size: 9px;
+    }
+
+    .Item-in-corz img{
+        height: 100%;
+    }
+
+
+
+    .con-In-Corz{
+        display: block;
+        width: 60%;
+        height: 100%;
+        position: relative;
+    }
+
+    .con-In-Corz h1{
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #161C24;
+    }
+
+    .roll{
+        width: 90px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid #EAEAEA;
+        font-weight: 500;
+        position: absolute;
+        bottom: 0px; 
+        margin-left: -10px;
+    }
+
+    .roll span{
+        width: 12px;
+        height: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        cursor: pointer;
+        font-weight: 400;
+    }
+
+    .price-del{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .price-del h2{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .block-icon-del{
+        padding: 10px;
+        width: auto ;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        transition: all .3s ease;
+        cursor: pointer;
+    }
+
+    .block-icon-del p{
+        color: #4295E4;
+        font-size: 15px;
+        font-weight: 500; 
+    }
+
+    .icon-del-item{
+        width: 14px;
+        height: 14px;
+        color: #4295E4;
+        cursor: pointer;
+    }
+
+    .block-icon-del:hover{
+        transform: scale(1.05);
+    }
+
+    .block-icon-del:active{
+        transform: scale(1);
+}
+}

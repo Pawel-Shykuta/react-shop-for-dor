@@ -1,0 +1,1095 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", serif;
+  width: 100%;
+  height: 100%;
+    
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+                                                        /*MAin */
+.Preview{
+    width: 100%;
+    height: 774px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.con-prev{
+    width: 100%;
+    height: 774px;
+    top: 126px;
+    gap: 50px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+
+.con-prev img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.Info{
+    width: 604px;
+    margin-top: 171px;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.Info h1{
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.h{
+    margin-top: -30px;
+}
+
+.InfoOf{
+    width: 604px;
+    height: 433px;
+    top: 297px;
+    left: 736px;
+    gap: 20px;
+    opacity: 0px;    
+}
+
+.infoIn{
+    width: 287px;
+    height: 136px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.infoIn h2{
+    color: #454F5B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 20px 0;
+}
+
+.Block-price{
+    margin-top: 52px;
+    width: 220px;
+    height: 121px;
+}
+
+.Block-price h3{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.Block-price h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.Block-price h1 .Old-Price{
+    color: #A4A4A4;
+    margin-left: 12px;
+    text-decoration: line-through;
+}
+
+.Block-price button{
+    width: 220px;
+    height: 50px;
+    background: #4295E4;
+    border: none;
+    margin-top: 16px;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.Block-price button:hover{
+    transform: scale(1.1);   
+}   
+
+.Block-price button:active{
+    transform: scale(1);   
+}
+
+                                                         /* Numbers */
+
+.Numbers{
+    margin-top: 100px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 82px;
+}
+
+.Numbers .Con-Num{
+    width: 20%;
+    height: 80px;
+    text-align: center;
+}
+
+.Numbers .Con-Num h1{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #161C24;
+    margin-left: 0px;
+
+}
+
+.Numbers .Con-Num h3{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #454F5B;
+}
+
+
+
+
+                                                    /* Why-Golden-service */
+.Why-Golden-service{
+    margin-top: 93px;
+    width: 100%;
+    height: 344px;
+    color: #161C24;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Why-Golden-service .Name{
+    height: 62px;
+    margin-left: 5% ;
+    font-size:28px;
+    font-weight: 600;
+    line-height: 62px;
+    text-align: left;
+}
+
+
+.Golden-ConTainer{
+    width: 100%;
+    height: 226px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.Golden-ConTainer .Golden-con img{
+    width: 82px;
+    height: 82px;
+}
+
+.Golden-ConTainer .Gold-con{
+    width: 393px;
+    height: 226px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+
+.Golden-ConTainer .Golden-con{
+    width: 345px;
+    height: 178px;
+    margin: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.Golden-ConTainer .Golden-con h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #454F5B;
+}
+
+                                                    /* Category */
+.Category{
+    margin-top: 100px;
+    width: 90%;
+    height: 1206px;
+    margin-left: 5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Category .Category-name{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 62px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.Category .Category-container{
+    width: 1240px;
+    height: 980px;
+}
+
+.category-block{
+    width: 100%;
+    height: 470px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.category-item{
+    width: 600px;
+    height: 470px;
+    position: relative;
+}
+
+.category-item img{
+    float: right;
+    height: 80%;
+}
+
+.cat-forBuy{
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+}
+
+.cat-forBuy h2{ 
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+}
+
+.cat-forBuy button{
+    width: 220px;
+    height: 50px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    cursor: pointer;
+    background-color: #4295E4;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+
+.cat-forBuy button:hover{
+    transform: scale(1.05);
+}
+
+.cat-forBuy button:active{
+    transform: scale(1);
+}
+
+.All{
+    width: 220px;
+    height: 50px;
+    background: #4295E4;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    border: none;
+    cursor: pointer;
+    margin-top: 90px;
+    margin-left: 5%;
+    transition: all .3s ease;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.All:hover{
+    transform: scale(1.05);
+}
+
+.All:active{
+    transform: scale(1);
+}
+
+                                            /* Popular-productsd */
+.Popular-products{
+    width: 100%;
+    height: 1000px;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Popular-products .Popular-products-name{
+    width: 100%;
+    height: 63px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 62px;
+    color: #161C24;
+}
+
+.Products-container{
+    margin-top: 64px;
+    width: 100%;
+    height: 426px;
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Product-block{
+    width: 288px;
+    height: 426px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.Product-block:hover{
+    transform: scale(1.03);
+}
+.foto{
+    width: 288px;
+    height: 320px;
+    position: relative;
+}
+
+.foto img{
+    width: 100%;
+}
+.info-price{
+    width: 288px;
+    height: 106px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.info-price h3{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.info-price h2{
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 24px;
+    color: #161C24;
+}
+
+.opac{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.48px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 15px;
+}
+
+.Stan{
+    width: 127px;
+    height: 22px;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #454F5B;
+}
+
+.SALE{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 31px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+
+                                        /* Call-back */
+.Call-back{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+}
+
+.call-back-con{
+    width: 748px;
+    height: 212px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.call-back-con h1{
+    line-height: 62px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #161C24;
+}
+
+.call-back-con h2{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #454F5B;
+    text-align: center;
+    width: 512px;
+}
+
+.call-back-con form{
+    width: 748px;
+    height: 50px;
+    gap: 24px;
+    display: flex;
+}
+
+.call-back-con form input{
+    width: 240px;
+    height: 50px;
+    border: none;
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    background: #161c2418;
+
+
+}
+
+
+.call-back-con form button {
+    width: 220px;
+    height: 50px;
+    border: none;
+    color: white;
+    background: #4295E4;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.call-back-con form button:hover{
+    transform: scale(1.06);
+}
+
+.call-back-con form button:active{
+    transform: scale(1);
+}
+
+
+@media(max-width:450px){
+
+
+                                        /* Coraine */
+
+    .Coraine{
+        width: 90%;
+        height: 500px;
+        top: 4.5%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: white;
+        border: 1px solid silver;
+    }
+
+    .corzin-footer{
+        display: block;
+    }
+
+    .block-buy{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .block-buy h1{
+        font-size: 16px;
+        line-height:26px;
+        font-weight: 400;
+    }
+
+    .block-buy .For-buy{
+        width: 100%;
+    }
+
+    .corzin-footer .Continue-shopping{
+        margin-top: 0;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+                                            /* Preview */
+
+    .Preview{
+        width: 100%;
+        height: 608px;
+        gap: 0px;
+        opacity: 0px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .con-prev{
+        width: 100%;
+        height: 608px;
+        top: 126px;
+        gap: 0;
+        display: block;
+        padding: 0px ;
+    }
+    
+    .con-prev img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    
+    .Info{
+        width: 90%;
+        margin: 5%;
+        height: 68px;
+        margin-top:30px;
+        background-color: rgba(255, 255, 255, 0.8); /* Optional for contrast */
+        padding: 0px;
+        border-radius: 8px;
+    }
+    
+    .ha{
+        width: 100%;
+        margin: 0;
+    }
+
+    .Info h1{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+    
+    .InfoOf{
+        width: 100%;
+        height: 433px;
+        top: 297px;
+        left: 736px;
+        gap: 20px;
+        opacity: 0px;    
+    }
+    
+    .infoIn{
+        width: 287px;
+        height: 136px;
+        gap: 16px;
+        opacity: 0px;
+    }
+    
+    .infoIn h2{
+        color: #454F5B;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin: 20px 0;
+    }
+    
+    .Block-price{
+        margin-top: 52px;
+        width: 100%;
+        height: 121px;
+    }
+    
+    .Block-price h3{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    
+    .Block-price h1{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+    }
+    
+    .Block-price h1 .Old-Price{
+        color: #A4A4A4;
+        margin-left: 12px;
+        text-decoration: line-through;
+    }
+    
+    .Block-price button{
+        width: 90%;
+        height: 50px;
+        background: #4295E4;
+        border: none;
+        margin-top: 16px;
+        margin-left: 5%;
+        color: white;
+        cursor: pointer;
+        transition: all .3s ease;
+        font-size: 16px;
+    }
+    .Block-price button:hover{
+        transform: scale(1.05);   
+    }   
+    
+    .Block-price button:active{
+        transform: scale(1);   
+    }
+
+                                                            /* Numbers */
+
+.Numbers{
+     margin-top: 250px;
+     margin-left: 5%;
+     width: 90%;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 82px;
+     flex-wrap: wrap;
+ }
+ 
+ .Numbers .Con-Num{
+    width: calc(50% - 41px);
+    height: 80px;
+    text-align: center;
+    box-sizing: border-box; 
+ }
+ 
+ .Numbers .Con-Num h1{
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 34px;
+     color: #161C24;
+ 
+ }
+ 
+ .Numbers .Con-Num h3{
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 24px;
+     color: #454F5B;
+ }
+
+                                                    /* Why-Golden-service */
+    .Why-Golden-service{
+        margin-top: 93px;
+        width: 100%;
+        height: 658px;
+        color: #161C24;
+        display: block;
+    }
+
+    .Why-Golden-service .Name{
+        margin-top:5%;
+        width: 90%;
+        text-align: center;
+        font-size:13px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+
+
+    .Golden-ConTainer{
+        width: 100%;
+        height: 180px;
+        display: block;
+        padding: 0px;
+    }
+
+    .Golden-ConTainer .Golden-con img{
+        width: 64px;
+        height: 64px;
+    }
+
+    .Golden-ConTainer .Gold-con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        text-align:justify;
+    }
+
+    .Golden-ConTainer .Golden-con{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .Golden-ConTainer .Golden-con h3{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: center;
+        color: #454F5B;
+    }
+
+                                                       /* Category */
+    .Category{
+        margin-top: 50px;
+        width: 90%;
+        height: 1206px;
+        margin-left: 5%;
+        color: black;
+        display: block;
+    }
+
+    .Category .Category-name{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 34px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-align: center;
+    }
+
+    .Category .Category-container{
+        width: 100%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .category-block{
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .category-item{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    .category-item img{
+        width: 100%;
+    }
+
+    .cat-forBuy{
+        width: 80%;
+        height: auto;
+        position: absolute;
+        bottom: 0px;
+        left: 0%;
+    }
+
+    .cat-forBuy h2{ 
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        text-decoration-skip-ink: none;
+    }
+
+    .cat-forBuy button{
+        border-radius: 3px;
+        width: 90%;
+        margin-left: 5%;
+        height: 50px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        cursor: pointer;
+        background-color: rgb(255, 252, 252);
+        color: #161C24;
+        border: 1px solid #454F5B
+        
+    }
+
+    .All{
+        width: 90%;
+        height: 50px;
+        background: #4295E4;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        border: none;
+        cursor: pointer;
+        margin-top: 90px;
+        margin-left: 5%;
+        transition: all .3s ease;
+    }
+
+    .All:hover{
+        transform: scale(1.1);
+    }
+
+    .All:active{
+        transform: scale(1);
+    }
+
+                                               /* Popular-productsd */
+    .Popular-products{
+        width: 100%;
+        height: auto;
+        margin-top: -100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Popular-products .Popular-products-name{
+        width: 100%;
+        height: 63px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 34px;
+        color: #161C24;
+    }
+
+    .Products-container{
+        margin-top: 64px;
+        width: 100%;
+        height: auto;
+        gap: 70px;
+        display: block;
+    }
+
+    .Product-block{
+        width: 90%;
+        height: auto;
+        cursor: pointer;
+        transition: all .3s ease;
+        margin: 40px 5%;
+        border-bottom: 1px solid rgba(192, 192, 192, 0.514);
+        padding: 20px;
+    }
+
+    .Product-block:hover{
+        transform: scale(1.03);
+    }
+    .foto{
+        width: 80%;
+        height: 320px;
+        margin-left: 10%;
+        position: relative;
+    }
+
+    .foto img{
+        width: 100%;
+    }
+    .info-price{
+        width: 288px;
+        height: 106px;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .info-price h3{
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+
+    .info-price h2{
+        font-size: 20px;
+        font-weight: 600px;
+        line-height: 24px;
+        color: #161C24;
+    }
+
+    .opac{
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 21.48px;
+        text-align: left;
+        text-decoration-line: line-through;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-left: 15px;
+    }
+
+    .Stan{
+        width: 127px;
+        height: 22px;
+        position: absolute;
+        top: 0%;
+        left: 4%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: #454F5B;
+    }
+
+    .SALE{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 31px;
+        height: 14px;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 500;
+    }
+
+
+    
+                                        /* Call-back */
+    .Call-back{
+        width: 100%;
+        height: 330px;
+        display: block;
+        margin-top: 96px;
+        padding: 20px 0px;
+    }
+
+    .call-back-con{
+        width: 100%;
+        height: 212px;
+        display: block;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .call-back-con h1{
+        line-height: 34px;
+        font-size: 22px;
+        font-weight: 600;
+        color: #161C24;
+    }
+
+    .call-back-con h2{
+        width: 100%;
+        line-height: 24px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #454F5B;
+        text-align: center;
+        
+    }
+
+    .call-back-con form{
+        width: 100%;
+        height: 50px;
+        gap: 24px;
+        display: block;
+        
+    }
+
+    .call-back-con form input{
+        width: 90%;
+        margin: 5%;
+        height: 50px;
+        border: none;
+        color: grey;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        background: #3e87e718;
+    }
+
+
+    .call-back-con form button {
+        width: 90%;
+        height: 50px;
+        border: none;
+        color: white;
+        background: #4295E4;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+
+    .call-back-con form button:hover{
+        transform: scale(1.06);
+    }
+
+    .call-back-con form button:active{
+        transform: scale(1);
+    }
+
+    
+}

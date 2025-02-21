@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", serif;
+  width: 100%;
+  height: 100%;
+}
+
+.Info-About-Compan{
+    width: 100%;
+    height: 100%;
+    gap:  100px 0   ;
+    display: flex;
+    flex-direction: column;
+}
+
+.Compan-video{
+    margin-top: 86px;
+    width: 100%;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoCon{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.videoCon img{
+    width: 40%;
+}
+
+.Info-compan{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Info-compan h3{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 9%;
+    color: #4295E4;
+    text-decoration: underline;
+}
+
+
+.Info-compan h1{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 62px;
+    letter-spacing: 0%;
+    color: black;
+}
+
+.Info-compan h1 span{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 62px;
+    letter-spacing: 0%;
+    color: #4295E4;
+}
+
+.Info-compan p{
+    width: 420px    ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #454F5B;
+}
+
+                                        /* chiferki */
+
+.chiferki{
+    width: 100%;
+    height: 320px;
+    background-color: #0D2436;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chiferki-con{
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    gap: 124px;
+}
+
+.ciferki-block{
+    width: auto;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ciferki-block h1{
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.ciferki-block p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%; 
+    color: white;
+}
+
+                                        /* Info-Mission */
+
+.Info-Mission{
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    display: flex;
+    gap: 80px;
+}
+
+.some-text{
+    width: 35%;
+    height: 100%;
+}
+
+.some-text h2{
+     font-weight: 400;
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: 9%;
+    color: #4295E4;
+}
+
+.some-text p{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color:#454F5B;
+}
+
+
+.mission-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+}
+
+
+.MissionTwo{
+    height: 425px;
+    width: 600px;
+}
+
+.OneMission{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    bottom: 20px;
+    left: -20px;
+    border: 5px solid white;
+}
+
+@media (max-width:450px) {
+    .Info-About-Compan{
+        width: 100%;
+        height: 100%;
+        gap:  0 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Compan-video{
+        margin-top: 86px;
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .videoCon{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .videoCon img{
+        width: 100%;
+    }
+    
+    .Info-compan{
+        margin-top: -50px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .Info-compan h3{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 38px;
+        letter-spacing: 9%;
+        color: #4295E4;
+        text-decoration: underline;
+    }
+    
+    
+    .Info-compan h1{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 62px;
+        letter-spacing: 0%;
+        color: black;   
+    }
+    
+    .Info-compan h1 span{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 62px;
+        letter-spacing: 0%;
+        color: #4295E4;
+    }
+    
+    .Info-compan p{
+        width: 100%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #454F5B;
+    }
+    
+                                        /* chiferki */
+
+    .chiferki{
+        width: 100%;
+        height: auto;
+        background-color: #0D2436;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .chiferki-con{
+        width: 80%;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .ciferki-block{
+        width: auto;
+        height: 116px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ciferki-block h1{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: 0%;
+        color: white;
+    }
+
+    .ciferki-block p{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0%; 
+        color: white;
+    }
+
+                                       /* Info-Mission */
+
+    .Info-Mission{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .some-text{
+        width: 100%;
+        height: auto;
+        order: 2;
+        margin-top: 50px;
+    }
+
+    .some-text h2{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 38px;
+        letter-spacing: 9%;
+        color: #4295E4;
+    }
+
+    .some-text p{
+        font-weight: 400;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0%;
+        color:#454F5B;
+    }
+
+
+    .mission-img{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+        display: flex;
+        position: relative;
+        margin-left: 0px;
+        order: 1;
+    }
+
+
+    .MissionTwo{
+        width: 90%;
+        margin-left: 10%;
+        height: auto;
+    }
+
+    .OneMission{
+        position: absolute;
+        width: 100px;
+        height: 150px;
+        bottom: -20px;
+        left: -10px;
+        border: 5px solid white;
+    }
+
+
+}
